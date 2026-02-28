@@ -1,4 +1,4 @@
-# 🏦 Console Banking System
+# 🏦 Console Digital Wallet
 
 > 🎓 **A Python training project** built to practice and solidify core programming concepts through a real-world inspired use case.
 
