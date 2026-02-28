@@ -1,4 +1,4 @@
-# 🏦 Celestial Jr — Console Banking System
+# 🏦 Console Banking System
 
 > 🎓 **A Python training project** built to practice and solidify core programming concepts through a real-world inspired use case.
 
@@ -51,54 +51,6 @@ celestial-jr/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.x
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/celestial-jr.git
-   cd celestial-jr
-   ```
-
-2. Run the application:
-   ```bash
-   python main.py
-   ```
-
-No additional libraries are required — only Python's built-in `json` and `hashlib` modules are used.
-
----
-
-## 💻 Usage
-
-When you launch the app, you'll be greeted with the main menu:
-
-```
-------------Welcome to the Celestial Jr------------
-Enter 1 to login || Enter 2 to register || Enter 3 to exit:
-```
-
-### Registering a New Account
-Select `2`, then enter a unique username, password, and your starting balance.
-
-### Logging In
-Select `1`, enter your credentials, and you'll gain access to the banking menu:
-
-```
-Enter 1 to show balance
-Enter 2 to deposit
-Enter 3 to withdraw
-Enter 4 to transfer
-Enter 5 to logout
-```
-
----
-
 ## 🗄️ Data Storage
 
 User data is stored locally in `database.json` in the following format:
@@ -118,32 +70,3 @@ User data is stored locally in `database.json` in the following format:
 > ⚠️ **Note:** Passwords are currently stored in plain text. This project is intended for educational purposes only and is **not suitable for production use**.
 
 ---
-
-## ⚠️ Known Limitations
-
-- Passwords are stored as plain text (no hashing applied yet)
-- No session tokens or encryption
-- Single-file JSON database is not scalable
-- No concurrent access protection
-
----
-
-## 🛠️ Planned Improvements
-
-- [ ] Hash passwords using `hashlib` (SHA-256)
-- [ ] Add transaction history per user
-- [ ] Migrate to SQLite for better data integrity
-- [ ] Add input sanitization and error logging
-- [ ] Build a simple GUI or web interface
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🙋 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
