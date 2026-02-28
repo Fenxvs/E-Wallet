@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "alaa",
+      "password": "1234",
+      "balance": 1003.0
+    },
+    {
+      "username": "mohmed",
+      "password": "salah",
+      "balance": 297.0
+    },
+    {
+      "username": "sara",
+      "password": "patata",
+      "balance": 3000.0
+    }
+  ]
+}
